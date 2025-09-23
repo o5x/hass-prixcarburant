@@ -101,7 +101,7 @@ class PrixCarburant(CoordinatorEntity, RestoreSensor):
     """Representation of a Sensor."""
 
     _attr_icon = "mdi:gas-station"
-    _attr_device_class = SensorDeviceClass.MONETARY
+    # _attr_device_class = SensorDeviceClass.MONETARY
     _attr_native_unit_of_measurement = CURRENCY_EURO
     _attr_state_class = SensorStateClass.MEASUREMENT
 
